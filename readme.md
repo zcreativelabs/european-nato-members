@@ -5,6 +5,24 @@ In dieser Übung werden wir die NATO Mitgliedstaaten Europas visualisieren. Der 
 
 Die geografischen Daten kommen von [NaturalEarth](https://www.naturalearthdata.com/downloads/), und die Informationen über NATO-Mitgliedstaaten kommen von der [NATO website](https://www.nato.int/cps/em/natohq/topics_52044.htm).
 
+## Start
+
+Installiere zunächst alle node modules mit npm install.
+
+```bash
+npm install
+```
+
+Nachdem alles installiert ist kannst du den Server mit npm start starten.
+
+```bash
+npm start
+```
+
+Die visualisierung wird auf http://localhost:1234/ zugänglich sein.
+
+> ⚠️ Du musst die visualisierung via localhost aufrufen. Da die daten für die Visualisierung asynchron geladen werden ist der Server notwendig. Die visualisierung wird nicht funktionieren wenn du auf das index.html doppelklickst.
+
 ## Aufgabe
 
 1. Erstelle eine Karte mit einem 4:3 Format (800x600), die auf Europa fokussiert ist. Wähle dabei eine geeignete Karteprojektion für eine Choroplethenkarte.
