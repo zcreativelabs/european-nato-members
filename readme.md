@@ -93,7 +93,7 @@ const shapes = svg.selectAll("path")
     .attr("fill", function(d) {
       
       // Finde die nato daten für ein Land:
-      const natoMetaData = members.find(member => member.iso3 === d.ADM0_A3)
+      const natoMetaData = members.find(member => member.iso3 === d.properties.ADM0_A3)
       
       // Wenn das Land kein NATO Mitglied ist (wenn 
       // `natoMetaData` nichts findet), wird es auf

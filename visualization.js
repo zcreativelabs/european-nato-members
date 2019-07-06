@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(members => {
           
           // Define the dimensions of your visualization
-
+          
           // Get the visualization container
 
           // Append and configure your svg node
